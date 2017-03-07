@@ -9,5 +9,6 @@ linguagem de programação JAVA.
 
 Este projeto está em desenvolvimento, mas perguntas, dúvidas ou sugestões são bem-vindas.
 
+Nota: Para o desenvolvimento deste projeto uso o IntelliJ IDEA.
 
 Desejo a todos uma boa programação!
