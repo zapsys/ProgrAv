@@ -1,4 +1,4 @@
-# ProgAv
+# ProgrAv
 Início dos estudos em programação JAVA:
 
 Os exemplos de código contidos nesse projeto são fruto da disciplina _EL83D - Programação Avançada_, ministrada no 3º 
