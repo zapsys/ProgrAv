@@ -1,7 +1,7 @@
 /* Cálculo do quadrado e cubo de um número inteiro */
 
 /** author: Aram Zap */
-/** date: 06/03/2017 */
+/** date: 07/03/2017 */
 
 package sistel.progav;
 
