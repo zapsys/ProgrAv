@@ -1,3 +1,5 @@
+/* Exemplo avaliação valor lógico 'e' */
+
 /** author: Aram Zap */
 /** date: 10/03/2017 */
 
