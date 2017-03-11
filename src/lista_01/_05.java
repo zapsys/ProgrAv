@@ -15,16 +15,16 @@ public class _05 {
         idade = ler.nextInt();
 
         if ((idade >= 0) && (idade <= 2))
-            System.out.print("Recém-nascido");
+            System.out.print("\nRecém-nascido");
         else if ((idade >= 3) && (idade <= 11))
-            System.out.print("Criança");
+            System.out.print("\nCriança");
         else if ((idade >= 12) && (idade <= 19))
-            System.out.print("Adolescente");
+            System.out.print("\nAdolescente");
         else if ((idade >= 20) && (idade <= 55))
-            System.out.print("Adulto");
+            System.out.print("\nAdulto");
         else if (idade > 55)
-            System.out.print("Idoso");
+            System.out.print("\nIdoso");
         else if (idade < 0)
-            System.out.print("Idade inválida");
+            System.out.print("\nIdade inválida");
     }
 }
