@@ -1,3 +1,5 @@
+/* Exemplo uso da estrutura condicional if */
+
 /** author: Aram Zap */
 /** date: 10/03/2017 */
 
