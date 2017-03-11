@@ -1,3 +1,5 @@
+/* Exemplo avaliação valor maior/menor e diferença entre maior e menor */
+
 /** author: Aram Zap */
 /** date: 10/03/2017 */
 
