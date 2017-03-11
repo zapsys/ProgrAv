@@ -18,16 +18,16 @@ public class _04 {
         b = ler.nextInt();
 
         if (a == b)
-            System.out.printf("%d é igual %d", a, b);
+            System.out.printf("%d é igual %d\n", a, b);
         if (a != b)
-            System.out.printf("%d é diferente de %d", a, b);
+            System.out.printf("%d é diferente de %d\n", a, b);
         if (a < b)
-            System.out.printf("%d é menor do que %d", a, b);
+            System.out.printf("%d é menor do que %d\n", a, b);
         if (a <= b)
-            System.out.printf("%d é menor ou igual a %d", a, b);
+            System.out.printf("%d é menor ou igual a %d\n", a, b);
         if (a > b)
-            System.out.printf("%d é maior do que %d", a, b);
+            System.out.printf("%d é maior do que %d\n", a, b);
         if (a >= b)
-            System.out.printf("%d é maior ou igual a %d", a, b);
+            System.out.printf("%d é maior ou igual a %d\n", a, b);
     }
 }

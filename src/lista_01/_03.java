@@ -18,10 +18,10 @@ public class _03 {
         b = ler.nextInt();
 
         if (a < b)
-            System.out.printf("%d é menor que %d", a, b);
+            System.out.printf("%d é menor que %d\n", a, b);
         else if (a == b)
-            System.out.printf("%d é igual a %d", a, b);
+            System.out.printf("%d é igual a %d\n", a, b);
         else
-            System.out.printf("%d é maior que %d", a, b);
+            System.out.printf("%d é maior que %d\n", a, b);
     }
 }
