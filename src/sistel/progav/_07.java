@@ -1,3 +1,5 @@
+/* Exemplo avaliação valor lógico 'ou' */
+
 /** author: Aram Zap */
 /** date: 10/03/2017 */
 
