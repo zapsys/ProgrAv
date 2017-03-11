@@ -17,11 +17,11 @@ public class _03 {
         System.out.printf("Entre com o 2o. valor: ");
         b = ler.nextInt();
 
-        if (a > b)
-            System.out.printf("%d é maior que %d", a, b);
+        if (a < b)
+            System.out.printf("%d é menor que %d", a, b);
         else if (a == b)
             System.out.printf("%d é igual a %d", a, b);
         else
-            System.out.printf("%d é menor que %d", a, b);
+            System.out.printf("%d é maior que %d", a, b);
     }
 }
