@@ -18,7 +18,7 @@ public class _04 {
         b = ler.nextInt();
 
         if (a == b)
-            System.out.printf("%d é igual %d\n", a, b);
+            System.out.printf("\n%d é igual %d\n", a, b);
         if (a != b)
             System.out.printf("%d é diferente de %d\n", a, b);
         if (a < b)
