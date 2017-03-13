@@ -1,4 +1,4 @@
-/* Passo do laço 'for' com variável do tipo 'double'  */
+/* Uso de passo não inteiro no laço 'for'  */
 
 /** author: Aram Zap
 /** date: 13/03/17 */
