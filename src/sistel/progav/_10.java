@@ -1,4 +1,4 @@
-/* Uso da estrutura de repetição 'for' */
+/* Uso básico da estrutura de repetição 'for' */
 
 /** author: Aram Zap */
 /** date: 13/03/2017 */
