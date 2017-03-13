@@ -1,4 +1,4 @@
-/* Uso da estrutura de repetição 'while' */
+/* Uso básico da estrutura de repetição 'while' */
 
 /** author: Aram Zap */
 /** date: 13/03/2017 */
