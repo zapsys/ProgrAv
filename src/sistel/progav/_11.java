@@ -1,4 +1,4 @@
-/* Tabuada do número 'n' usando a estrutura de repetição 'for' */
+/* Tabuada do número 'n' com a estrutura de repetição 'for' */
 
 /** author: Aram Zap */
 /** date: 13/03/2017 */
