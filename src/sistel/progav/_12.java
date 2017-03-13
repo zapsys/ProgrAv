@@ -13,7 +13,7 @@ public class _12 {
 
         int n;
 
-        System.out.print("Informe um valor: ");
+        System.out.print("Informe um valor inteiro: ");
         n = ler.nextInt();
 
         int i, f = 1;
