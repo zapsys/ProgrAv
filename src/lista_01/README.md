@@ -1,4 +1,4 @@
-#Nota:
+# Nota:
 
 Para aqueles que estiverem usando o NetBeans para construir seus projetos
 e quiserem rodar estes códigos conforme a estrutura criada em sala pelo 
