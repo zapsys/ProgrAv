@@ -1,4 +1,4 @@
-/* Vetores: Ler 5 números, armazenar em um vetor e mostá-los na tela */
+/* Vetores: Ler 5 números, armazenar em um vetor e mostrá-los na tela */
 
 /** author: Aram Zap
  *  date: 20/03/17  */
