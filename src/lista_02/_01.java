@@ -1,7 +1,7 @@
 /* Números ímpares de 0 a 20 */
 
-/** author: Aram Zap
- *  date: 20/03/17  */
+/** author: Aram Zap */
+/**  date: 20/03/17  */
 
 package lista_02;
 
