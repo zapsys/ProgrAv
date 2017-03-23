@@ -16,7 +16,7 @@ public class _04 {
         System.out.printf("Entre com um número: ");
         n = ler.nextInt();
 
-        System.out.print("Divisores: ");
+        System.out.print("\nDivisores: ");
 
         for (int i = 1; i <= n; i++){
             if (n % i == 0){
