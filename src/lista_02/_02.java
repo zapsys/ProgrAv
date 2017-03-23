@@ -1,7 +1,7 @@
 /* Leitura de 5 números inteiros e apresentação dos negativos */
 
-/** author: Aram Zap
- *  date: 20/03/17  */
+/** author: Aram Zap */
+/**  date: 20/03/17  */
 
 package lista_02;
 
