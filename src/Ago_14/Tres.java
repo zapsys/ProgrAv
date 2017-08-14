@@ -12,6 +12,15 @@ public class Tres {
             System.out.printf("%d\n", i);
             i++;
         }
+
+        System.out.println();
+
+        i = 5;
+        while (i <= 50){
+            System.out.printf("%d\n", i);
+            i = i + 5;
+        }
+
         System.out.println();
     }
 }
