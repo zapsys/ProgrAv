@@ -1,4 +1,4 @@
-/* Specification here */
+/* Exemplos de uso do laço 'for' */
 package Ago_14;
 
 public class Quatro {
