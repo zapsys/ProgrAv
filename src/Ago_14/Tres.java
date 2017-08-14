@@ -1,4 +1,4 @@
-/* Specification here */
+/* Estrutura de repetição com 'while' */
 package Ago_14;
 
 public class Tres {
