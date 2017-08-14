@@ -22,5 +22,13 @@ public class Tres {
         }
 
         System.out.println();
+
+        i = 10;
+        while (i >= 1){
+            System.out.printf("%d\n", i);
+            i = i - 1;
+        }
+
+        System.out.println();
     }
 }
