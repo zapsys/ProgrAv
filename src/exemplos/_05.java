@@ -3,7 +3,7 @@
 /** author: Aram Zap */
 /** date: 10/03/2017 */
 
-package sistel.progav;
+package exemplos;
 
 import java.util.Scanner;
 
