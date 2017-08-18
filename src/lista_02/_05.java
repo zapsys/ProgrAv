@@ -1,7 +1,7 @@
 /* Leitura de cinco números informando se a maioria é par ou ímpar */
 
-/** author: Aram Zap */
-/**  date: 20/03/17  */
+/* author: Aram Zap */
+/*  date: 20/03/17  */
 
 package lista_02;
 

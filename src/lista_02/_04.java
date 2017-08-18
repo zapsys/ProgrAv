@@ -1,7 +1,7 @@
 /* Divisores de um número inteiro */
 
-/** author: Aram Zap */
-/**  date: 20/03/17  */
+/* author: Aram Zap */
+/*  date: 20/03/17  */
 
 package lista_02;
 

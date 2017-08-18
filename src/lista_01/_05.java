@@ -9,22 +9,19 @@ public class _05 {
     public static void main(String args[]) {
         Scanner ler = new Scanner(System.in);
 
-        int idade;
+        int a, b;
 
-        System.out.printf("Entre com a idade da pessoa: ");
-        idade = ler.nextInt();
+        System.out.printf("Entre com o 1o. valor: ");
+        a = ler.nextInt();
 
-        if ((idade >= 0) && (idade <= 2))
-            System.out.print("\nRecém-nascido");
-        else if ((idade >= 3) && (idade <= 11))
-            System.out.print("\nCriança");
-        else if ((idade >= 12) && (idade <= 19))
-            System.out.print("\nAdolescente");
-        else if ((idade >= 20) && (idade <= 55))
-            System.out.print("\nAdulto");
-        else if (idade > 55)
-            System.out.print("\nIdoso");
-        else if (idade < 0)
-            System.out.print("\nIdade inválida");
+        System.out.printf("Entre com o 2o. valor: ");
+        b = ler.nextInt();
+
+        if (a < b)
+            System.out.printf("%d é menor que %d\n", a, b);
+        else if (a == b)
+            System.out.printf("%d é igual a %d\n", a, b);
+        else
+            System.out.printf("%d é maior que %d\n", a, b);
     }
 }

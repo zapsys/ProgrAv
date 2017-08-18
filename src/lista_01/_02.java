@@ -1,16 +1,27 @@
-/** author: Aram Zap */
-/** date: 10/03/2017 */
+/* author: Aram Zap */
+/* date: 17/08/2017 */
 
 package lista_01;
+
+import java.util.Scanner;
 
 public class _02 {
     public static void main(String args[]) {
 
-        int a = 5, b = 6, c = 9;
-        float media;
+        Scanner ler = new Scanner(System.in);
 
-        media = (a + b + c)/(float)3;
+        int a, b, prod;
 
-        System.out.printf("A média de %d, %d e %d é igual a %7.5f", a, b, c, media);
+        System.out.printf("Entre com o 1o. valor: ");
+        a = ler.nextInt();
+
+        System.out.printf("Entre com o 2o. valor: ");
+        b = ler.nextInt();
+
+        prod = a * b;
+
+        System.out.println();
+
+        System.out.printf("%d x %d = %d", a, b, prod);
     }
 }
