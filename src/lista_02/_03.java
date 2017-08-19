@@ -1,4 +1,4 @@
-/** Multiplicação de dois valores através do método de somas sucessivas **/
+/* Multiplicação de dois valores através do método de somas sucessivas */
 
 /* author: Aram Zap */
 /*  date: 20/03/17  */
