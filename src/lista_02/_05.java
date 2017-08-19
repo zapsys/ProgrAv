@@ -1,4 +1,4 @@
-/** Leitura de cinco números informando se a maioria é par ou ímpar **/
+/* Leitura de cinco números informando se a maioria é par ou ímpar */
 
 /* author: Aram Zap */
 /*  date: 20/03/17  */
