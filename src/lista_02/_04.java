@@ -1,4 +1,4 @@
-/** Divisores de um número inteiro **/
+/* Divisores de um número inteiro */
 
 /* author: Aram Zap */
 /*  date: 20/03/17  */
