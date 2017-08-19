@@ -1,4 +1,4 @@
-/* author: Aram Zap */
+/** author: Aram Zap */
 /* date: 17/08/2017 */
 
 package lista_01;
