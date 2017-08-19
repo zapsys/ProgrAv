@@ -1,4 +1,4 @@
-/** Números ímpares de 0 a 20 **/
+/* Números ímpares de 0 a 20 */
 
 /* author: Aram Zap */
 /*  date: 20/03/17  */
