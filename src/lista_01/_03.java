@@ -24,7 +24,7 @@ public class _03 {
             System.out.print("\nAdulto");
         else if (idade > 55)
             System.out.print("\nIdoso");
-        else    (idade < 0)
+        else if  (idade < 0)
             System.out.print("\nIdade inválida");
     }
 }
