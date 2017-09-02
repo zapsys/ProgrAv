@@ -1,4 +1,4 @@
-/* Contagem de caracteres maiúsculos, minúsculos e letras 'A' de um string */
+/* Contagem de caracteres maiúsculos, minúsculos e letras 'A' de uma string */
 package Set_01;
 
 
