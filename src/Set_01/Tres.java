@@ -1,4 +1,4 @@
-/* Specification here */
+/* Mostrar caractere pela sua posição na string (indexação) */
 package Set_01;
 
 import java.util.Scanner;

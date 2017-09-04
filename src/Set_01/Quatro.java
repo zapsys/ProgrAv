@@ -1,4 +1,4 @@
-/* Specification here */
+/* Representação triangular de uma string*/
 package Set_01;
 
 import java.util.Scanner;
