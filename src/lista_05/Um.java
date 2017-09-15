@@ -16,16 +16,18 @@ public class Um {
         System.out.printf("\nInforme o expoente: ");
         b = ler.nextInt();
 
-        potenciacao(a,b);
+        System.out.printf("\nO valor de %d^%d = %d\n", a, b, potenciacao(a,b));
+
 
     }
-    public static void potenciacao(int a, int b){
+    public static int potenciacao(int a, int b){
         int i, pot = 1;
 
 
         for (i = 1; i <= b; i++){
             pot = pot * a;
         }
-        System.out.printf("\nO valor de %d^%d = %d\n", a, b, pot);
+
+        return(pot);
     }
 }
