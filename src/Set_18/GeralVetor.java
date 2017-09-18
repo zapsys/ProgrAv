@@ -23,5 +23,13 @@ public class GeralVetor {
     public static double media(int v[]){
         return(somar(v)/(double)v.length);
     }
+    public static int contarPares(int v[]){
+        int result = 0;
+        for(int i = 0; i < v.length; i++){
+            if (v[i] % 2 == 0)
+            result = result + 1;
+        }
+        return(result);
+    }
 
 }
