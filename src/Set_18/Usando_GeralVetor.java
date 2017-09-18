@@ -1,4 +1,4 @@
-/* Imprimir, somar e mostrar elementos de dois vetores a partir da classe 'GeralVetor' */
+/* Imprimir elementos e operações de dois vetores a partir da classe 'GeralVetor' */
 package Set_18;
 
 public class Usando_GeralVetor {
@@ -16,5 +16,6 @@ public class Usando_GeralVetor {
         GeralVetor.alimentar(b);
         GeralVetor.imprimir(b);
         System.out.printf("Soma = %d\n", GeralVetor.somar(b));
+        System.out.printf("Média = %.2f\n", GeralVetor.media(b));
     }
 }
