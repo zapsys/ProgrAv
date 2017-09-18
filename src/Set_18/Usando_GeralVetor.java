@@ -17,5 +17,6 @@ public class Usando_GeralVetor {
         GeralVetor.imprimir(b);
         System.out.printf("Soma = %d\n", GeralVetor.somar(b));
         System.out.printf("Média = %.2f\n", GeralVetor.media(b));
+        System.out.printf("Qtd. de pares = %d\n", GeralVetor.contarPares(b));
     }
 }
