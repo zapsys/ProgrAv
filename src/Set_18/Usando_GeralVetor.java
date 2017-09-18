@@ -1,4 +1,4 @@
-/* Specification here */
+/* Imprimir e mostrar elementos de dois vetores a partir da classe 'GeralVetor' */
 package Set_18;
 
 public class Usando_GeralVetor {
