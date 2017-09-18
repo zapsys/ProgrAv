@@ -20,5 +20,8 @@ public class GeralVetor {
         }
         return(result);
     }
+    public static double media(int v[]){
+        return(somar(v)/(double)v.length);
+    }
 
 }
