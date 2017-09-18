@@ -13,5 +13,12 @@ public class GeralVetor {
             System.out.printf("[%d] = %d\n", i, v[i]);
         }
     }
+    public static int somar(int v[]){
+        int result = 0;
+        for(int i = 0; i < v.length; i++){
+            result = result + v[i];
+        }
+        return(result);
+    }
 
 }
