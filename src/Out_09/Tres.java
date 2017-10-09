@@ -1,4 +1,4 @@
-/* Trabalhando com o ArrayList de 'Strings' */
+/* Trabalhando com o ArrayList de 'String' */
 package Out_09;
 
 import java.util.ArrayList;
