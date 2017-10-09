@@ -6,12 +6,17 @@ public class Dois {
 
         int x[] = {7, 3, 0, -5, -1, 8, 6};
 
-        mostrarItem(x , 0);
-        mostrarItem(x , 5);
-        mostrarItem(x , 1);
-
+        mostrarItem(x, 0);
+        mostrarItem(x, 5);
+        mostrarItem(x, 1);
+        mostrarItem(x, 9);
     }
     public static void mostrarItem(int v[], int i){
-        System.out.printf("Posição %d = %d\n", i, v[i]);
+        try {
+            System.out.printf("Posição %d = %d\n", i, v[i]);
+        }
+        catch(IndexOutOfBoundsException erro){
+            System.out.printf("Erro: " + erro);
+        }
     }
 }
