@@ -15,7 +15,7 @@ public class Dois {
         try {
             System.out.printf("Posição %d = %d\n", i, v[i]);
         }
-        catch(IndexOutOfBoundsException erro){
+        catch(ArrayIndexOutOfBoundsException erro){
             System.out.printf("Erro: " + erro);
         }
     }
