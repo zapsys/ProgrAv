@@ -9,7 +9,7 @@ public class Dois {
         mostrarItem(x, 0);
         mostrarItem(x, 5);
         mostrarItem(x, 1);
-        mostrarItem(x, 9);
+        mostrarItem(x, 8);
     }
     public static void mostrarItem(int v[], int i){
         try {
