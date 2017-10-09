@@ -13,6 +13,8 @@ public class Tres {
         nomes.add("Marieta Severo");
         nomes.add(1, "Fora Michel Temer");
 
+        nomes.remove(3);
+
         int i, n;
         n = nomes.size();
 
