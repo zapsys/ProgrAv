@@ -27,7 +27,7 @@ public class Um {
 
     public static int divisaoInteira(int a, int b) {
         try {
-            return (a / b);
+            return (a/b);
         }
         catch (ArithmeticException erro) {
             System.out.printf("Erro: " + erro);
