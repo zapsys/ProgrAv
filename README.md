@@ -8,6 +8,6 @@ Os códigos estão agrupados em ordem progressiva de dificuldade e abrangem conc
 
 Este projeto está em desenvolvimento, mas perguntas, dúvidas ou sugestões são bem-vindas.
 
-Nota: Para o desenvolvimento deste projeto foi usado o IntelliJ IDEA Community Edition como IDE de desenvolvimento.
+Nota: Para o desenvolvimento deste projeto foi usado o IntelliJ IDEA Community Edition no sistema operacional Linux (Arch Linux).
 
 Desejo a todos uma boa programação!
