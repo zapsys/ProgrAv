@@ -40,6 +40,6 @@ public class Pessoa {
         return "Nome......: " + nome + "\n" +
                 "Sexo......: " + sexo + "\n" +
                 "Nascimento: " + dtNasc.mostrarData(1) + "\n" +
-                "Idade.....: " + dtNasc.calculaIdade() + "anos.\n" ;
+                "Idade.....: " + dtNasc.calculaIdade() + " anos." ;
     }
 }
