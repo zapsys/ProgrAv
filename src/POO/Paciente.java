@@ -33,7 +33,7 @@ public class Paciente extends Pessoa {
 
         vlrIMC = Geral.imc(pesoCorporal, altura);
 
-        return(String.format("IMC......: %.2f (%s)", vlrIMC, Geral.interpretarIMC(vlrIMC)));
+        return(String.format("IMC.......: %.2f (%s)", vlrIMC, Geral.interpretarIMC(vlrIMC)));
     }
 
     @Override
@@ -41,8 +41,8 @@ public class Paciente extends Pessoa {
         String result;
 
         result = super.toString() +
-                "\nPeso......: " + pesoCorporal + "Kg\n" +
-                "Altura......: " + altura + "m\n" + avaliacaoIMC();
+                "\nPeso......: " + pesoCorporal + " Kg\n" +
+                "Altura....: " + altura + " m\n" + avaliacaoIMC();
 
         return result;
     }
