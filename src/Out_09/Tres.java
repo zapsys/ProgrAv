@@ -1,11 +1,12 @@
-/* Trabalhando com o ArrayList de 'String' */
+/* Trabalhando com o ArrayList de nomes 'Strings' */
+
 package Out_09;
 
 import java.util.ArrayList;
 
 public class Tres {
     public static void main(String args[]) {
-        ArrayList<String> nomes = new ArrayList<>();
+        ArrayList<String> nomes = new ArrayList();
 
         nomes.add("Jucas Bala");
         nomes.add("Maria da Silva");
