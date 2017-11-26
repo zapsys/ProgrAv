@@ -26,8 +26,7 @@ public class Contribuicao{
     public void setValorContribuicao(double valorContribuicao) {
         this.valorContribuicao = valorContribuicao;
     }
-    
-    
+        
     @Override
     public String toString() {
         return (aluno.getNome()  + " (" + aluno.getApelido() + "), " + String.format("R$ %.2f", valorContribuicao) + "\n");
