@@ -1,4 +1,4 @@
-/* Tratamento de exceções: 'InputMismatchException' e 'ArithmeticException' */
+/* Tratamento de exceções 1: 'InputMismatchException' e 'ArithmeticException' */
 
 package Out_09;
 
