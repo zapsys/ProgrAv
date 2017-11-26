@@ -1,4 +1,4 @@
-/* Avalia se um número inteiro é positivo, negativo ou zero */
+/* Avalia se um número inteiro é positivo, negativo ou zero (if / else / else) */
 
 package Ago_11;
 
