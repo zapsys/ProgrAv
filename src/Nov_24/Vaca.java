@@ -1,4 +1,5 @@
-/* */
+/* Classe 'Vaca.java' que extende a classe abstrata 'Animal.java' */
+
 package Nov_24;
 
 public class Vaca extends Animal {
