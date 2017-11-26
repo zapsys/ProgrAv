@@ -1,4 +1,4 @@
-/* Instanciando objeto da classe 'Vaquinha.java' e ArrayList da classe 'Contribuicao.java' */
+/* Instanciando ArrayList da classe 'Contribuicao.java' e objeto da classe 'Vaquinha.java' */
 
 package POO4;
 
