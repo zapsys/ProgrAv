@@ -1,4 +1,5 @@
 /* Avalia se um número inteiro é positivo, negativo ou zero */
+
 package Ago_11;
 
 import java.util.Scanner;
@@ -15,8 +16,8 @@ public class Dois {
         if (n < 0)
             System.out.print("negativo\n");
         else if (n == 0)
-            System.out.printf("zero\n");
+            System.out.print("zero\n");
         else
-            System.out.printf("positivo\n");
+            System.out.print("positivo\n");
     }
 }
