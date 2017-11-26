@@ -29,12 +29,6 @@ public class Contribuicao{
         
     @Override
     public String toString() {
-        return (aluno.getNome()  + " (" + aluno.getApelido() + "), " + String.format("R$ %.2f", valorContribuicao) + "\n");
+        return (aluno.getNome()  + " (" + aluno.getApelido() + "), " + String.format("R$ %.2f", valorContribuicao) + " ");
     }
-
-    
-
-    
-    
-
 }
