@@ -1,4 +1,5 @@
 /* Verifica se um número inteiro é par e ímpar */
+
 package Ago_11;
 
 import java.util.Scanner;
