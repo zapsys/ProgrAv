@@ -1,4 +1,5 @@
-/* Trabalhando com o ArrayList de 'Integer' */
+/* Trabalhando com o ArrayList de números inteiros 'Integer' */
+
 package Out_09;
 
 
@@ -6,7 +7,7 @@ import java.util.ArrayList;
 
 public class Quatro {
     public static void main(String args[]) {
-        ArrayList<Integer> x = new ArrayList<>();
+        ArrayList<Integer> x = new ArrayList();
 
         int i, n;
 
