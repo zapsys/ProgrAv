@@ -32,22 +32,24 @@ public class Vaquinha {
     
     public String maior(){
         double maior;
-        int i = 0, id = 0; 
+        int i = 0, idMaior = 0; 
         int EOF = contribuicoes.size();
         maior = contribuicoes.get(0).getValorContribuicao();
         
         while (i < EOF){
             if (contribuicoes.get(i).getValorContribuicao() > maior){
                 maior = contribuicoes.get(i).getValorContribuicao();
-                id = i;
+                idMaior = i;
             }
             i++;
         }
-        return("\nMaior contribuição: " + contribuicoes.get(id).getAluno().getNome() + "\n");
+        return("\nMaior contribuição: " + contribuicoes.get(idMaior).getAluno().getNome() + "\n");
     }
     
     public String mostrar(){
-        return (nome + ":\n\n" + contribuicoes.toString() + "\n" + maior());
+        int totalContribuicoes = contribuicoes.size();
+        
+        return (nome + ":\n\n" + contribuicoes.toString() + "\n\n" + "Total de contribuiçoes: " + totalContribuicoes + "\n\n" + maior());
     }
 
 }
