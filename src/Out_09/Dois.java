@@ -1,4 +1,5 @@
-/* Tratamento de exceções: 'ArrayIndexOutBoundsException' */
+/* Tratamento de exceções 2: 'ArrayIndexOutBoundsException' */
+
 package Out_09;
 
 public class Dois {
