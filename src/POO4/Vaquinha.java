@@ -29,8 +29,11 @@ public class Vaquinha {
         this.contribuicoes = contribuicoes;
     }
 
+    public void adicionar(Contribuicao novaContribuicao){
+        contribuicoes.add(novaContribuicao);
+    }
     
-    public String maior(){
+    public Aluno maior(){
         double maior;
         int i = 0, idMaior = 0; 
         int EOF = contribuicoes.size();
@@ -43,13 +46,22 @@ public class Vaquinha {
             }
             i++;
         }
-        return("\nMaior contribuição: " + contribuicoes.get(idMaior).getAluno().getNome() + "\n");
+        return(contribuicoes.get(idMaior).getAluno());
     }
     
-    public String mostrar(){
+    public void mostrar(){
         int totalContribuicoes = contribuicoes.size();
         
-        return (nome + ":\n\n" + contribuicoes.toString() + "\n\n" + "Total de contribuiçoes: " + totalContribuicoes + "\n\n" + maior());
+        System.out.print(nome + ":");
+        System.out.println();
+        System.out.println();
+        System.out.printf(contribuicoes.toString());
+        System.out.println();
+        System.out.println();
+        System.out.printf("Total de contribuiçoes: %d",totalContribuicoes);
+        System.out.println();
+        System.out.printf("Maior contribuição: %s\n", maior().getNome());
+                
     }
 
 }
