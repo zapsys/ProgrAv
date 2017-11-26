@@ -1,4 +1,4 @@
-/* Escreve 10 linhas com o texto 'Bom final de semana' */
+/* Uso do laço 'for': 10 linhas com o texto 'Bom final de semana' */
 
 package Ago_11;
 
