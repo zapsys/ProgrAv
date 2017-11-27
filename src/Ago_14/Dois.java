@@ -1,4 +1,5 @@
-/* Diferença de dois números reais */
+/* Diferença de dois números reais com estrutura (if / else) */
+
 package Ago_14;
 
 import java.util.Scanner;
