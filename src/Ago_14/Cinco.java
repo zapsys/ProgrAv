@@ -1,4 +1,5 @@
-/* Tabuada de um número */
+/* Laço de repetição 'for': Tabuada de um número */
+
 package Ago_14;
 
 import java.util.Scanner;
