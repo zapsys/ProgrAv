@@ -38,7 +38,7 @@ public class Vaquinha {
         int i = 0, idMaior = 0; 
         int EOF = contribuicoes.size();
         maior = contribuicoes.get(0).getValorContribuicao();
-        
+                
         while (i < EOF){
             if (contribuicoes.get(i).getValorContribuicao() > maior){
                 maior = contribuicoes.get(i).getValorContribuicao();
@@ -50,7 +50,11 @@ public class Vaquinha {
     }
     
     public void mostrar(){
-        int totalContribuicoes = contribuicoes.size();
+        double totalContribuicoes = 0;
+        
+        for (Contribuicao item : contribuicoes){
+            totalContribuicoes = totalContribuicoes + item.getValorContribuicao();
+        }
         
         System.out.print(nome + ":");
         System.out.println();
@@ -58,7 +62,7 @@ public class Vaquinha {
         System.out.printf(contribuicoes.toString());
         System.out.println();
         System.out.println();
-        System.out.printf("Total de contribuiçoes: %d",totalContribuicoes);
+        System.out.printf("Total de contribuiçoes: R$ %.2f",totalContribuicoes);
         System.out.println();
         System.out.printf("Maior contribuição: %s\n", maior().getNome());
                 
