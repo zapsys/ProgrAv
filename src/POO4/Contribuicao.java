@@ -1,3 +1,4 @@
+/* Classe java 'Contribuicao' */
 
 package POO4;
 
