@@ -1,3 +1,4 @@
+/* Classe java 'Vaquinha' */
 
 package POO4;
 
