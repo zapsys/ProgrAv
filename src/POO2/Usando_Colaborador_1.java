@@ -13,8 +13,13 @@ public class Usando_Colaborador_1 {
         colaborador.add(new Colaborador("Marieta Severo", 'F', new Data(8, 4, 1969), 10, 1830.00));
         colaborador.add(new Colaborador("Juliano Ferreira", 'M', new Data(30, 7, 1984), 2, 2200.00));
 
+        double totSal = 0;
+        
         for (Colaborador item: colaborador){
+            totSal = totSal + item.salarioFinal();
             System.out.println(item.toString());
         }
+        System.out.println();
+        System.out.printf("Total dos salários: R$ %.2f\n", totSal);
     }
 }
