@@ -1,4 +1,5 @@
-/* Comparação usando 'if' */
+/* Comparação de valores usando 'if' */
+
 package Ago_14;
 
 import java.util.Scanner;
