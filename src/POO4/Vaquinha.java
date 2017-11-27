@@ -37,10 +37,10 @@ public class Vaquinha {
     public Aluno maior(){
         double maior;
         int i = 0, idMaior = 0; 
-        int EOF = contribuicoes.size();
+        int tamanho = contribuicoes.size();
         maior = contribuicoes.get(0).getValorContribuicao();
                 
-        while (i < EOF){
+        while (i < tamanho){
             if (contribuicoes.get(i).getValorContribuicao() > maior){
                 maior = contribuicoes.get(i).getValorContribuicao();
                 idMaior = i;
