@@ -1,4 +1,5 @@
-/* Exemplos de uso do laço 'for' */
+/* Laço de repetição 'for': Passo positivo e passo negativo */
+
 package Ago_14;
 
 public class Quatro {
