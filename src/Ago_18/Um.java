@@ -1,4 +1,5 @@
-/* Contagem de números negativos informados */
+/* Exercício 1: Contagem de números negativos informados */
+
 package Ago_18;
 
 import java.util.Scanner;
