@@ -1,4 +1,5 @@
-/* Operações com armazenagem de resultados em vetores */
+/* Exercício 3: Armazenagem de resultados em vetores */
+
 package Ago_21;
 
 import java.util.Scanner;
