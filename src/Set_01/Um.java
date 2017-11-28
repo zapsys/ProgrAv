@@ -1,4 +1,5 @@
-/* Imprimindo strings com laço 'for' */
+/* Exercício 1: Trabalhando com caracteres 'char' (impressão na tela) */
+
 package Set_01;
 
 public class Um {
