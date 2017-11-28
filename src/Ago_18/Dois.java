@@ -1,4 +1,5 @@
-/* Fatorial de um número inteiro positivo */
+/* Exercício 2: Fatorial de um número inteiro positivo */
+
 package Ago_18;
 
 import java.util.Scanner;
