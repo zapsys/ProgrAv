@@ -1,4 +1,4 @@
-/* Programa que escreve os múltiplos de 7 no intervalo [7,70] e mostra a soma deles */
+/* Exercício 1: Programa que escreve os múltiplos de 7 no intervalo [7,70] e mostra a soma deles */
 
 package lista_03;
 
