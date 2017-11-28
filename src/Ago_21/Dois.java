@@ -1,4 +1,5 @@
-/* Entrada de dados em um vetor de 7 posições */
+/* Exercício 2: Entrada de dados em vetor de 7 posições */
+
 package Ago_21;
 
 import java.util.Scanner;
