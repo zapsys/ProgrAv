@@ -1,4 +1,5 @@
-/* Mostrar caractere pela sua posição na string (indexação) */
+/* Exercício 3: Mostrar caractere pela sua posição na 'String' (indexação) */
+
 package Set_01;
 
 import java.util.Scanner;
