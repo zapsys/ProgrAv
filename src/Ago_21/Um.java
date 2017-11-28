@@ -1,4 +1,5 @@
-/* Operações básicas com funções do método Math */
+/* Exercício 1: Operações básicas com funções do método 'Math' */
+
 package Ago_21;
 
 
