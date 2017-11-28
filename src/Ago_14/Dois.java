@@ -1,4 +1,4 @@
-/* Diferença de dois números reais com estrutura (if / else) */
+/* Exercício 2: Diferença de dois números reais com estrutura (if / else) */
 
 package Ago_14;
 
