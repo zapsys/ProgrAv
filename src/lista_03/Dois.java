@@ -1,4 +1,4 @@
-/* Soma dos valores inteiros compreendidos entre A e B */
+/* Exercício 2: Soma dos valores inteiros compreendidos entre os inteiros A e B */
 
 package lista_03;
 
