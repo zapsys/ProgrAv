@@ -50,6 +50,20 @@ public class Vaquinha {
         return(contribuicoes.get(idMaior).getAluno());
     }
     
+    /* Métdo mais elegante */
+    /*
+    public Aluno maior(){
+        Contribuicao result = new Contribuicao(new Aluno("","",""),0);
+        
+        for (Contribuicao item: contribuicoes){
+            
+            if (result.getValorContribuicao() < item.getValorContribuicao())
+                result = item;
+            }
+        return(result.getAluno());
+    }
+    */
+    
     public void mostrar(){
         double totalContribuicoes = 0;
         
@@ -65,8 +79,6 @@ public class Vaquinha {
         System.out.println();
         System.out.printf("Total de contribuiçoes: R$ %.2f",totalContribuicoes);
         System.out.println();
-        System.out.printf("Maior contribuição: %s\n", maior().getNome());
-                
+        System.out.printf("Maior contribuição: %s\n", maior().getNome());           
     }
-
 }
