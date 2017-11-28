@@ -1,4 +1,4 @@
-/* Uso da classe abstrata 'Animal.java' através da adição de animais em um ArrayList */
+/* Uso da classe abstrata 'Animal.java' através instanciação de animais em um ArrayList */
 
 package Nov_24;
 
