@@ -1,4 +1,4 @@
-/* Laço de repetição 'for': Passo positivo e passo negativo */
+/* Exercício 4: Laço de repetição 'for' (Passo positivo e passo negativo) */
 
 package Ago_14;
 
