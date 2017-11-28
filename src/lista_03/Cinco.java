@@ -1,4 +1,4 @@
-/* Subtração de valores armazenados (aleatórios de 0 - 99) no vetor A dos elementos do vetor B */
+/* Exercício 5: Subtração de valores armazenados (aleatórios de 0 - 99) no vetor A dos elementos do vetor B */
 
 package lista_03;
 
