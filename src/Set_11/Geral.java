@@ -1,4 +1,5 @@
 /* Classe 'Geral' que implementa diversos métodos usados no 'package Set_11' */
+
 package Set_11;
 
 public class Geral {
