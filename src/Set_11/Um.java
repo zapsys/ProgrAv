@@ -1,4 +1,5 @@
-/* Tabuada de um número usando o método 'tabuada' */
+/* Exercício 1: Tabuada de um número usando o método (função) 'tabuada' */
+
 package Set_11;
 
 import java.util.Scanner;
