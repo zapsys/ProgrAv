@@ -1,4 +1,4 @@
-/* Comparação de valores usando 'if' */
+/* Exercício 1: Comparação de valores usando 'if' */
 
 package Ago_14;
 
