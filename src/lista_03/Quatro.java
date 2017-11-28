@@ -1,6 +1,6 @@
-/* Vetor de 10 posições com números aleatórios de 10 a 50 */
+/* Exercício 4: Vetor de 10 posições com números aleatórios de 10 a 50 */
 
-
+package lista_03;
 
 public class Quatro {
     public static void main(String args[]) {
