@@ -1,4 +1,5 @@
-/* Interpretar valor do IMC de uma pessoa a partir do método 'interpretar' da classe 'Geral' */
+/* Exercício 2: Avaliação do IMC de uma pessoa a partir do método (função) 'interpretarIMC' da classe 'Geral' */
+
 package Set_11;
 
 import java.util.Scanner;
