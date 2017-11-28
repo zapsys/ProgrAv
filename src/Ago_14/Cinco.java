@@ -1,4 +1,4 @@
-/* Laço de repetição 'for': Tabuada de um número */
+/* Exercício 5: Laço de repetição 'for' (Tabuada de um número) */
 
 package Ago_14;
 
