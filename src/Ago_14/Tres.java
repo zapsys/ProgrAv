@@ -1,4 +1,5 @@
-/* Estrutura de repetição com 'while' */
+/* Exercício 3: Estrutura de repetição com a estrutura 'while' */
+
 package Ago_14;
 
 public class Tres {
