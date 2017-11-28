@@ -1,4 +1,5 @@
-/* Entrada de uma string pelo teclado */
+/* Exercício 2: Trabalhando com 'Strings' (entrada pelo teclado) */
+
 package Set_01;
 
 import java.util.Scanner;
