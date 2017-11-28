@@ -1,4 +1,4 @@
-/* Operações com armazenagem de resultados em vetores */
+/* Exercício 3: Operações com armazenagem de resultados em vetores */
 
 package lista_03;
 
