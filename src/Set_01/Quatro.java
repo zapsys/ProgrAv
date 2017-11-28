@@ -1,4 +1,5 @@
-/* Representação triangular de uma string*/
+/* Exercício 4: Representação triangular de uma 'String' (varredura) */
+
 package Set_01;
 
 import java.util.Scanner;
