@@ -1,3 +1,4 @@
+/* Classe java 'Pontuacao' com associação do objeto 'aluno' do tipo 'Aluno' */
 
 package POO5;
 
