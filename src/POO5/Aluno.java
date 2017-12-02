@@ -1,4 +1,4 @@
-/* Classe java filha 'Aluno' com extensão atributos de 'Pessoa' */
+/* Classe java filha 'Aluno' com extensão de atributos de 'Pessoa' */
 
 package POO5;
 
