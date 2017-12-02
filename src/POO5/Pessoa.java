@@ -1,3 +1,4 @@
+/* Classe java pai ou superclasse 'Pessoa' */
 
 package POO5;
 
