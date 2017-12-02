@@ -1,3 +1,4 @@
+/* Classe java 'Eleicao' com agregação do objeto 'pontuacoes' do tipo 'Pontuacoes' em um ArrayList  */
 
 package POO5;
 
@@ -6,7 +7,7 @@ import java.util.ArrayList;
 
 public class Eleicao {
     private String nomeEleicao;
-    ArrayList<Pontuacao> pontuacoes;
+    private ArrayList<Pontuacao> pontuacoes;
 
     public Eleicao(String nomeEleicao, ArrayList<Pontuacao> pontuacoes) {
         this.nomeEleicao = nomeEleicao;
@@ -36,11 +37,11 @@ public class Eleicao {
     public Aluno maior(){
         double maiorPontuacao;
         int maiorIdade = 0, idMaior = 0; 
-        int EOF = pontuacoes.size();
+        int tamanho = pontuacoes.size();
         maiorPontuacao = pontuacoes.get(0).getPontos();
         
-        for (int i = 0; i < EOF; i++){
-            for (int j = (EOF - 1); j > 0; j--){
+        for (int i = 0; i < tamanho; i++){
+            for (int j = (tamanho - 1); j > 0; j--){
                 if (pontuacoes.get(i).getPontos() > maiorPontuacao){
                     maiorPontuacao = pontuacoes.get(i).getPontos();
                     maiorIdade = pontuacoes.get(i).getAluno().getIdade();
