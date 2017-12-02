@@ -1,3 +1,5 @@
+/* Exercício 1: Média (double) entre 3 números inteiros */
+
 /* author: Aram Zap */
 /* date: 17/08/2017 */
 
