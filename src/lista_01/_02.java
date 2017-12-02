@@ -1,3 +1,5 @@
+/* Exercício 2: Produtos de 2 números inteiros fornecidos pelo usuário */
+
 /* author: Aram Zap */
 /* date: 17/08/2017 */
 
