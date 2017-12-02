@@ -1,3 +1,5 @@
+/* Exercíco 5: Relações de igualdade, maioridade e minoridade entre 2 números inteiros*/
+
 /* author: Aram Zap */
 /* date: 10/03/2017 */
 
