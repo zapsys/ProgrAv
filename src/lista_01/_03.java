@@ -1,3 +1,5 @@
+/* Exercício 3: Avaliação do tipo (grupo) de uma pessoa pela sua idade */
+
 /* author: Aram Zap */
 /* date: 17/08/2017 */
 
