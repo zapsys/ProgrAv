@@ -9,9 +9,9 @@ public class Eleicao {
     private String nomeEleicao;
     private ArrayList<Pontuacao> pontuacoes;
 
-    public Eleicao(String nomeEleicao, ArrayList<Pontuacao> pontuacoes) {
+    public Eleicao(String nomeEleicao) {
         this.nomeEleicao = nomeEleicao;
-        this.pontuacoes = pontuacoes;
+        this.pontuacoes = new ArrayList();
     }
 
     public String getNomeEleicao() {
@@ -40,23 +40,20 @@ public class Eleicao {
         int tamanho = pontuacoes.size();
         maiorPontuacao = pontuacoes.get(0).getPontos();
         
-        for (int i = 0; i < tamanho; i++){
-            for (int j = (tamanho - 1); j > 0; j--){
+        for (int i = 1; i < tamanho; i++){
                 if (pontuacoes.get(i).getPontos() > maiorPontuacao){
                     maiorPontuacao = pontuacoes.get(i).getPontos();
                     maiorIdade = pontuacoes.get(i).getAluno().getIdade();
                     idMaior = i;
                 }
-                if (pontuacoes.get(j).getPontos() == pontuacoes.get(i).getPontos()){
-                    if (maiorIdade < pontuacoes.get(j).getAluno().getIdade()){
-                        idMaior = j;
+                else if (pontuacoes.get(i).getPontos() == pontuacoes.get(i).getPontos()){
+                    if (maiorIdade < pontuacoes.get(i).getAluno().getIdade()){
+                        idMaior = i;
                     }
                 }
-            }
         }
         return(pontuacoes.get(idMaior).getAluno());
     }
-    
     public double media(){
         double somaPontuacoes = 0;
         int numeroPontuacoes;
@@ -70,11 +67,12 @@ public class Eleicao {
     }
     public void mostrar(){
                
-        System.out.printf("%s", nomeEleicao);
+        System.out.printf("%s\n", nomeEleicao);
         System.out.println();
-        System.out.println(pontuacoes.toString());
-        System.out.printf("\nThe Best: %s", maior().getNomePessoa() + " " + maior().getSobrenome());
+        for (Pontuacao item : pontuacoes){
+            System.out.println(item.toString());
+        }
+        System.out.printf("\nThe Best: %s\n", maior().getNomePessoa() + " " + maior().getSobrenome());
         System.out.printf("\nMedia de pontos: %.2f\n",media());
    }
-
 }
