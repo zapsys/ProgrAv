@@ -1,4 +1,4 @@
-/* Instanciando objeto 'vaquinha' da classe 'Vaquinha.java' */
+/* Instanciando o objeto 'vaquinha' para adicionar contribuições de alunos */
 
 package POO4;
 
