@@ -1,4 +1,4 @@
-/* Instanciando o objeto 'eleicao' da classe 'Eleicao.java' */
+/* Instanciando o objeto 'eleicao' para adicionar pontuações de alunos */
 
 package POO5;
 
