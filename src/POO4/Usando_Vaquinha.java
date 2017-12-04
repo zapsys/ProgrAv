@@ -2,13 +2,10 @@
 
 package POO4;
 
-import java.util.ArrayList;
-
 
 public class Usando_Vaquinha {
     public static void main(String[] args) {
-        ArrayList<Contribuicao> contribuicoes = new ArrayList<Contribuicao>();
-        Vaquinha vaquinha = new Vaquinha("Vaquinha Natal 2017", contribuicoes);
+        Vaquinha vaquinha = new Vaquinha("Vaquinha Natal 2017");
         
         vaquinha.adicionar(new Contribuicao(new Aluno("aranha","aram@hotmail.com","Aram Zap"),8.50));
         vaquinha.adicionar(new Contribuicao(new Aluno("maranha","tony@hotmail.com","Tony Santos"),4.50));
