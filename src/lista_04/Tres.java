@@ -1,4 +1,5 @@
-/* Substitui as letras 'A' ou 'a' de uma string por '*' */
+/* Exercício 3: Substituição das letras 'A' ou 'a' de uma string por '*' */
+
 package lista_04;
 
 import java.util.Scanner;
@@ -24,6 +25,6 @@ public class Tres {
         }
         System.out.println();
         System.out.printf("Frase original: %s\n\n", s);
-        System.out.printf("Frase alterada: %s", result);
+        System.out.printf("Frase alterada: %s\n", result);
     }
 }
