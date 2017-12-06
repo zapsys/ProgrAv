@@ -1,4 +1,5 @@
-/* Verifica se uma string possui algarismos numéricos */
+/* Exercício 2: Verifica se uma string possui algarismos numéricos */
+
 package lista_04;
 
 import java.util.Scanner;
