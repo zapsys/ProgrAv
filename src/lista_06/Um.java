@@ -1,4 +1,7 @@
-/* Specification here */
+/* Exercício 1: Avalia os números de 1000 a 9999 que satisfazem a propiedade
+    num = (part1 + part2)^2
+*/
+
 package lista_06;
 
 public class Um {
