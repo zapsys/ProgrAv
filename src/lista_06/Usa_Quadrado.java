@@ -1,4 +1,5 @@
-/* Specification here */
+/* Uso de métodos implementados na classe java 'Quadrado' */
+
 package lista_06;
 
 import java.util.Scanner;
