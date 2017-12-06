@@ -1,4 +1,4 @@
-/*  */
+/* Interface Gráfica 3: Trabalhano com 'InternalJFrame' - Representação triangular */
 package Nov_17;
 
 public class Janela1 extends javax.swing.JInternalFrame {
