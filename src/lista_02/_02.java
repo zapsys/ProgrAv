@@ -1,4 +1,4 @@
-/* Leitura de 5 números inteiros e apresentação dos negativos */
+/* Exercício 2: Leitura de 5 números inteiros e apresentação dos negativos */
 
 /* author: Aram Zap */
 /*  date: 20/03/17  */
