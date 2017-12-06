@@ -1,4 +1,5 @@
-/* Inverter uma String */
+/* Exercício 4: Invertendo uma String */
+
 package lista_04;
 
 import java.util.Scanner;
