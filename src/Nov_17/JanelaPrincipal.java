@@ -5,15 +5,8 @@
  */
 package Nov_17;
 
-/**
- *
- * @author aram
- */
 public class JanelaPrincipal extends javax.swing.JFrame {
 
-    /**
-     * Creates new form JanelaPrincipal
-     */
     public JanelaPrincipal() {
         initComponents();
     }
@@ -99,6 +92,11 @@ public class JanelaPrincipal extends javax.swing.JFrame {
 
         jMenuItem6.setText("Quadrado");
         jMenuItem6.setToolTipText("");
+        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem6ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem6);
 
         jMenuBar1.add(jMenu2);
@@ -131,8 +129,16 @@ public class JanelaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
-        // TODO add your handling code here:
+        JanelaCirculo circulo = new JanelaCirculo();
+        janelaInterna.add(circulo);
+        circulo.setVisible(true);
     }//GEN-LAST:event_jMenuItem5ActionPerformed
+
+    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
+        JanelaQuadrado quadrado = new JanelaQuadrado();
+        janelaInterna.add(quadrado);
+        quadrado.setVisible(true);
+    }//GEN-LAST:event_jMenuItem6ActionPerformed
 
     /**
      * @param args the command line arguments
