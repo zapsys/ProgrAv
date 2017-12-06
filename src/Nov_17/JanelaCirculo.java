@@ -23,10 +23,9 @@ public class JanelaCirculo extends javax.swing.JInternalFrame {
         btImprimir = new javax.swing.JButton();
         tfRaio = new javax.swing.JTextField();
         lbRaio = new javax.swing.JLabel();
-        dpVisualizacao = new javax.swing.JDesktopPane();
+        btLimpar = new javax.swing.JButton();
         spResultado = new javax.swing.JScrollPane();
         result = new javax.swing.JTextArea();
-        btLimpar = new javax.swing.JButton();
 
         setClosable(true);
         setResizable(true);
@@ -49,25 +48,6 @@ public class JanelaCirculo extends javax.swing.JInternalFrame {
 
         lbRaio.setText("Raio:");
 
-        result.setColumns(20);
-        result.setRows(5);
-        spResultado.setViewportView(result);
-
-        dpVisualizacao.setLayer(spResultado, javax.swing.JLayeredPane.DEFAULT_LAYER);
-
-        javax.swing.GroupLayout dpVisualizacaoLayout = new javax.swing.GroupLayout(dpVisualizacao);
-        dpVisualizacao.setLayout(dpVisualizacaoLayout);
-        dpVisualizacaoLayout.setHorizontalGroup(
-            dpVisualizacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(spResultado, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 370, Short.MAX_VALUE)
-        );
-        dpVisualizacaoLayout.setVerticalGroup(
-            dpVisualizacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(dpVisualizacaoLayout.createSequentialGroup()
-                .addComponent(spResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-
         btLimpar.setText("Limpar");
         btLimpar.setAlignmentY(0.0F);
         btLimpar.addActionListener(new java.awt.event.ActionListener() {
@@ -76,6 +56,10 @@ public class JanelaCirculo extends javax.swing.JInternalFrame {
             }
         });
 
+        result.setColumns(20);
+        result.setRows(5);
+        spResultado.setViewportView(result);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -83,18 +67,22 @@ public class JanelaCirculo extends javax.swing.JInternalFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(dpVisualizacao)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(lbRaio)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(tfRaio, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(btImprimir)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addGap(0, 162, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(btLimpar)))
                 .addContainerGap())
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(spResultado, javax.swing.GroupLayout.DEFAULT_SIZE, 370, Short.MAX_VALUE)
+                    .addContainerGap()))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -103,11 +91,14 @@ public class JanelaCirculo extends javax.swing.JInternalFrame {
                     .addComponent(btImprimir)
                     .addComponent(tfRaio, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lbRaio))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(dpVisualizacao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 215, Short.MAX_VALUE)
                 .addComponent(btLimpar)
                 .addContainerGap())
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(38, 38, 38)
+                    .addComponent(spResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(38, Short.MAX_VALUE)))
         );
 
         pack();
@@ -125,11 +116,16 @@ public class JanelaCirculo extends javax.swing.JInternalFrame {
    
         Circulo circulo = new Circulo(raio);
     
-        result.append(String.format("%.2f\n", circulo.getRaio()));
-        result.append(String.format("%.2f\n", circulo.diametro()));
-        result.append(String.format("%.2f\n", circulo.perimetro()));
-        result.append(String.format("%.2f\n", circulo.area()));
-        result.append(String.format("%.2f\n", circulo.volume()));
+        result.append(String.format("Raio: %.2f\n", circulo.getRaio()));
+        result.append("------------------------------------------------------\n");
+        result.append(String.format("Diâmetro: %.2f\n", circulo.diametro()));
+        result.append("------------------------------------------------------\n");
+        result.append(String.format("Perímetro: %.2f\n", circulo.perimetro()));
+        result.append("------------------------------------------------------\n");
+        result.append(String.format("Área: %.2f\n", circulo.area()));
+        result.append("------------------------------------------------------\n");
+        result.append(String.format("Volume: %.2f\n", circulo.volume()));
+        result.append("------------------------------------------------------\n");
     }
     catch(NumberFormatException erro){
         result.append("Entrada Inválida!"+ "\n");
@@ -144,7 +140,6 @@ public class JanelaCirculo extends javax.swing.JInternalFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btImprimir;
     private javax.swing.JButton btLimpar;
-    private javax.swing.JDesktopPane dpVisualizacao;
     private javax.swing.JLabel lbRaio;
     private javax.swing.JTextArea result;
     private javax.swing.JScrollPane spResultado;
