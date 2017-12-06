@@ -1,3 +1,5 @@
+/* Implementação de métodos que calculam propriedades do quadrado */
+
 package lista_06;
 
 public class Quadrado {
